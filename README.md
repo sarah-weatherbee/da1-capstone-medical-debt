@@ -1,48 +1,55 @@
-# da1-capstone-medical-debt
+# Medical Debt in Collections: The Case of Kentucky
 
-## da1-capstone-medical-debt
+
 
 ## Overview
 
-This is a project to explore medical debt in collections and its correlates in the state of Kentucky, my home state. As the 5th poorest state in the nation as of 2017, (https://www.kentucky.com/news/health-and-medicine/article233354582.html) it is worth exploring the burden of medical debt on the population of this state. Look at medical debt in collections by county. I am looking at both the median amount of medical debt in collections by county and the percent of the county with medical debt in collections. I am assuming that medical debt sent to collections is a sign of unmanageable healthcare costs and poor quality insurance, and unemployment/underemployment as health insurance is heavily tied to employment in America. 
+This is a project to explore medical debt in collections and its correlates in the state of Kentucky, my home state. 
+As of 2019, Kentucky had the sixth highest poverty rate (17%) in the nation (https://www.usnews.com/news/best-states/slideshows/us-states-with-the-highest-poverty-rates?slide=6). Per 2017 data from the Urban Institute as noted by the Lexington Herald Leader, 27 percent of Kentuckians “owe a collection agency for a combined $1.5 billion in recent medical debt” (https://www.kentucky.com/news/health-and-medicine/article233354582.html); counties in the eastern pert of the state 
+ have the highest rate of people with medical debt in collections. Thus it is worth exploring the burden of medical debt on the population of this state. I am assuming that medical debt sent to collections is a sign of unmanageable healthcare costs and poor quality health insurance. The proportion of a county with medical debt in collections signals the economic health of a county.
 
 
-The questions:
+My questions:
 
- - What county characteristics most strongly correlate with medical debt in collections?
-	 - at different income levels? (broken down by segments (percentiles)
-	 - does bankruptcy rate correlate with medical debt in collections?
-	 - is there a relationship between population size of county and medical debt in collections?
+* Is health insurance a protective factor against unmanageable medical bills? I.e. medical debt sent to collections?
+* Is there a correlation between the number of people with debt in collections and the number of people with medical debt in collections?
+* Are people less likely to have debt in collections as income rises?
+* Is there a relationship between the percent of people with medical debt in collections and the percent of bankruptcies?
+
  
 
 ## Process
 
-Read in data on medical debt, clean it. 
-Segment by income level (low income: below 25 percentile, mid income: between 25 and 75 percentile, upper income above 75 percentile).
-Merge data with other data.
-assess correlations overall
-assess correlations within the three income bands.
-Analyze the data.
-Visualize
-Deliverable 
-Map percent of medical debt in collections using chloropleth map.
+* Read in data on medical debt in collections, population, bankruptcy to Python Jupyter Notebook
+* Clean data 
+* Merge datasets
+* Assess correlations overall
+* Segment by income level (low income: below 25 percentile, mid income: between 25 and 75 percentile, upper income above 75 percentile)
+* Assess correlations within the three income bands
+* Map percent of medical debt in collections by county using chloropleth map
+* Visualize with interactive dashboard in Tableau
 
 ## Sources of data
 
- - Data from the Urban Institute, which “contains 2016 and 2017 data derived from a random sample of de-identified, consumer-level records from a major credit bureau as well as estimates from summary tables of the US Census Bureau’s American Community Survey (2015 or 2011–15 and 2016 or 2012–16).”
+Medical debt in collections data from the Urban Institute
 https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=perc_debt_med&state=21
+\*literal asterisks\* This data “contains 2016 and 2017 data derived from a random sample of de-identified, consumer-level records from a major credit bureau as well as estimates from summary tables of the US Census Bureau’s American Community Survey (2015 or 2011–15 and 2016 or 2012–16).”
 
- -2017 population data by county from the Kentucky State Data Center:
+County bankruptcy data 2019 by county in KY from US courts.gov
+https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables?tn=&pn=All&t=534&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=2017
+
+County population estimates 2017 from the Kentucky State Data Center
 http://ksdc.louisville.edu/data-downloads/estimates/
- 
-Bankruptcy data 2019 by county in KY from US courts:
-[https://www.uscourts.gov/statistics/table/f-5a/bankruptcy-filings/2019/09/30](https://www.uscourts.gov/statistics/table/f-5a/bankruptcy-filings/2019/09/30)
+
+County boundaries from the University of Kentucky
+https://www.uky.edu/KGS/gis/bounds.htm
+
 
 ## Limitations: 
-
- - The debt in collections data offers only a snapshot in time: 2017, so I can't look at change through time.
- 
- - At the county level, approximately 25% of counties have n/a for median debt in collections. I replaced the n/a's with the median value for all counties, 1295. I did same process for  median medical debt in collections. 
- 
- - The bankruptcy data is from 2019, so it does not directly align
- yearwise with the debt in collections data.
+  
+For counties with missing data, I replaced NaN’s with the median value for that column. 
+Median debt in collections NaN’s were replaced with 1295
+Median medical debt in collections NaN’s were replaced with 623
+Percent of county with medical debt in collections NaN’s were replaced with .29
+The debt data is from 2017 while the bankruptcy data is from 2019
+The data only offers a snapshot in time; I could not look at how characteristics have changed through the years
