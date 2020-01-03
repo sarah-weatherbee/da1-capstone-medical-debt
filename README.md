@@ -33,7 +33,7 @@ My questions:
 
 Medical debt in collections data from the Urban Institute
 https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=perc_debt_med&state=21
-\*literal asterisks\* This data “contains 2016 and 2017 data derived from a random sample of de-identified, consumer-level records from a major credit bureau as well as estimates from summary tables of the US Census Bureau’s American Community Survey (2015 or 2011–15 and 2016 or 2012–16).”
+This data “contains 2016 and 2017 data derived from a random sample of de-identified, consumer-level records from a major credit bureau as well as estimates from summary tables of the US Census Bureau’s American Community Survey (2015 or 2011–15 and 2016 or 2012–16).”
 
 County bankruptcy data 2019 by county in KY from US courts.gov
 https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables?tn=&pn=All&t=534&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=2017
