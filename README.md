@@ -5,7 +5,7 @@
 ## Overview
 
 This is a project to explore medical debt in collections and its correlates in the state of Kentucky, my home state. 
-As of 2019, Kentucky had the sixth highest poverty rate (17%) in the nation (https://www.usnews.com/news/best-states/slideshows/us-states-with-the-highest-poverty-rates?slide=6). Per 2017 data from the Urban Institute as noted by the Lexington Herald Leader, 27 percent of Kentuckians “owe a collection agency for a combined $1.5 billion in recent medical debt” (https://www.kentucky.com/news/health-and-medicine/article233354582.html); counties in the eastern pert of the state 
+As of 2019, Kentucky had the [sixth highest poverty rate](https://www.usnews.com/news/best-states/slideshows/us-states-with-the-highest-poverty-rates?slide=6)(17%) in the nation. Per 2017 data from the Urban Institute [as noted by the Lexington Herald Leader](https://www.kentucky.com/news/health-and-medicine/article233354582.html), 27 percent of Kentuckians “owe a collection agency for a combined $1.5 billion in recent medical debt"; counties in the eastern pert of the state 
  have the highest rate of people with medical debt in collections. Thus it is worth exploring the burden of medical debt on the population of this state. I am assuming that medical debt sent to collections is a sign of unmanageable healthcare costs and poor quality health insurance. The proportion of a county with medical debt in collections signals the economic health of a county.
 
 
@@ -31,18 +31,15 @@ My questions:
 
 ## Sources of data
 
-Medical debt in collections data from the Urban Institute
-https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=perc_debt_med&state=21
-This data “contains 2016 and 2017 data derived from a random sample of de-identified, consumer-level records from a major credit bureau as well as estimates from summary tables of the US Census Bureau’s American Community Survey (2015 or 2011–15 and 2016 or 2012–16).”
+* Medical debt in collections data from the [Urban Institute](https://apps.urban.org/features/debt-interactive-map/?type=medical&variable=perc_debt_med&state=21)
+** This data “contains 2016 and 2017 data derived from a random sample of de-identified, consumer-level records from a major credit bureau as well as estimates from summary tables of the US Census Bureau’s American Community Survey (2015 or 2011–15 and 2016 or 2012–16).”
 
-County bankruptcy data 2019 by county in KY from US courts.gov
-https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables?tn=&pn=All&t=534&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=2017
+* County bankruptcy data 2019 by county in KY from [uscourts.gov](https://www.uscourts.gov/statistics-reports/caseload-statistics-data-tables?tn=&pn=All&t=534&m%5Bvalue%5D%5Bmonth%5D=&y%5Bvalue%5D%5Byear%5D=2017)
 
-County population estimates 2017 from the Kentucky State Data Center
-http://ksdc.louisville.edu/data-downloads/estimates/
+* County population estimates 2017 from the [Kentucky State Data Center](http://ksdc.louisville.edu/data-downloads/estimates/)
 
-County boundaries from the University of Kentucky
-https://www.uky.edu/KGS/gis/bounds.htm
+
+* County boundaries from the [University of Kentucky](https://www.uky.edu/KGS/gis/bounds.htm)
 
 
 ## Limitations: 
