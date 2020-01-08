@@ -4,9 +4,13 @@
 
 ## Overview
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/47487494/72007207-c8567500-3216-11ea-8f53-3f7f9cbf9264.jpeg" height="300">
+</p>
+
 This is a project to explore medical debt in collections and its correlates in the state of Kentucky, my home state. 
 As of 2019, Kentucky had the [sixth highest poverty rate](https://www.usnews.com/news/best-states/slideshows/us-states-with-the-highest-poverty-rates?slide=6)(17%) in the nation. Per 2017 data from the Urban Institute [as noted by the Lexington Herald Leader](https://www.kentucky.com/news/health-and-medicine/article233354582.html), 27 percent of Kentuckians “owe a collection agency for a combined $1.5 billion in recent medical debt"; counties in the eastern pert of the state 
- have the highest rate of people with medical debt in collections. Thus it is worth exploring the burden of medical debt on the population of this state. I am assuming that medical debt sent to collections is a sign of unmanageable healthcare costs and poor quality health insurance. The proportion of a county with medical debt in collections signals the economic health of a county.
+ have the highest rate of people with medical debt in collections. Thus, it is worth exploring the burden of medical debt on the population of this state. I am assuming that medical debt sent to collections is a sign of unmanageable healthcare costs and poor quality health insurance. The proportion of a county with medical debt in collections signals the economic health of a county.
 
 
 My questions:
@@ -16,7 +20,6 @@ My questions:
 * Are people less likely to have debt in collections as income rises?
 * Is there a relationship between the percent of people with medical debt in collections and the percent of bankruptcies?
 
- 
 
 ## Process
 
@@ -28,6 +31,22 @@ My questions:
 * Assess correlations within the three income bands
 * Map percent of medical debt in collections by county using chloropleth map
 * Visualize with interactive dashboard in Tableau
+
+
+## Tableau Dashboard
+
+[Link here](https://public.tableau.com/shared/CW2XM8XZQ?:display_count=y&:origin=viz_share_link)
+
+## Screenshots
+
+<p align="center">
+<img src="https://user-images.githubusercontent.com/47487494/72007993-7e6e8e80-3218-11ea-9ba1-3d2a7ef4230d.jpg" height="300">
+</p>
+
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/47487494/72007471-5cc0d780-3217-11ea-963b-531f5ec47539.jpg" height="400">
+</p>
+
 
 ## Sources of data
 
