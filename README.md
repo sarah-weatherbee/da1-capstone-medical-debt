@@ -35,7 +35,7 @@ My questions:
 
 ## Tableau Dashboard
 
-[Link here](https://public.tableau.com/shared/CW2XM8XZQ?:display_count=y&:origin=viz_share_link)
+[Link here](https://public.tableau.com/views/Book1_15775754180070/Dashboard1?:display_count=y&publish=yes&:origin=viz_share_link)
 
 ## Screenshots
 
@@ -44,7 +44,7 @@ My questions:
 </p>
 
 <p align="center">
- <img src="https://user-images.githubusercontent.com/47487494/72007471-5cc0d780-3217-11ea-963b-531f5ec47539.jpg" height="400">
+ <img src="https://user-images.githubusercontent.com/47487494/72007471-5cc0d780-3217-11ea-963b-531f5ec47539.jpg" height="500">
 </p>
 
 
