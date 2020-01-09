@@ -9,7 +9,7 @@
 </p>
 
 This is a project to explore medical debt in collections and its correlates in the state of Kentucky, my home state. 
-As of 2019, Kentucky had the [sixth highest poverty rate](https://www.usnews.com/news/best-states/slideshows/us-states-with-the-highest-poverty-rates?slide=6)(17%) in the nation. Per 2017 data from the Urban Institute [as noted by the Lexington Herald Leader](https://www.kentucky.com/news/health-and-medicine/article233354582.html), 27 percent of Kentuckians “owe a collection agency for a combined $1.5 billion in recent medical debt"; counties in the eastern pert of the state 
+As of 2019, Kentucky had the [sixth highest poverty rate](https://www.usnews.com/news/best-states/slideshows/us-states-with-the-highest-poverty-rates?slide=6)(17%) in the nation. [As noted by the Lexington Herald Leader](https://www.kentucky.com/news/health-and-medicine/article233354582.html), 27 percent of Kentuckians “owe a collection agency for a combined $1.5 billion in recent medical debt"; counties in the eastern pert of the state 
  have the highest rate of people with medical debt in collections. Thus, it is worth exploring the burden of medical debt on the population of this state. I am assuming that medical debt sent to collections is a sign of unmanageable healthcare costs and poor quality health insurance. The proportion of a county with medical debt in collections signals the economic health of a county.
 
 
